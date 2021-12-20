@@ -1,7 +1,10 @@
 package utils
 
-import "fmt"
+func HelloWorld() string {
+	return "Hello World from hellogo!"
+}
 
-func HelloWorld() {
-	fmt.Println("Hello World from hellogo!")
+func HelloWorldName(name string) string {
+	message := "Hello " + name + "!"
+	return message
 }
